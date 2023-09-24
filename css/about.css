@@ -1,0 +1,273 @@
+.about-home
+{
+  background-image: url('../image/img-about.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 60vh;        
+}
+.cont-about-home
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;  
+  margin-top: 80px;
+  text-align: center;  
+  color:#fffefe;    
+}
+.cont-about h1
+{
+  font-size: 60px;        
+}
+.cont-about p
+{
+  font-size: 1.5rem;        
+}
+.about-sec-2
+{
+  padding: 100px 0;        
+}
+.about-sec-2 p
+{
+   color: #888;       
+}
+.divided-two
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont-sec-3 i
+{
+  font-size: 50px;
+  color: #d8b478;        
+}
+.cont-sec-3 p
+{
+ color: #888;         
+}
+.but-sec-3 button
+{
+  font-weight: bold;
+  color: #888;        
+}
+
+.about-sec-3 p
+{
+ color: #888;         
+}
+.but1-sec-3
+{
+  background-color: #d8b478 !important;
+  color: #fff !important;        
+}
+.cont-sec-4
+{
+  text-align: center;        
+}
+.cont-sec-4 i
+{
+   font-size: 50px;
+   color: #d8b478;       
+}
+.co-it
+{
+  display: flex;
+  justify-content: space-between; 
+         
+}
+.bor
+{
+  border-left: 0.1px solid #888; 
+  border-bottom: 0.1px solid #888;
+  border-right: 0.1px solid #888;       
+}
+.co-it span i
+{
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 0.1px solid #888;   
+  cursor: pointer;     
+}
+.f-s3-s
+{
+  padding: 10px 15px !important;        
+}
+.about-sec-4
+{
+  background-color: #f1f1f1;        
+}
+.about-sec-4 p
+{
+  color: #888;        
+}
+
+.sce-6
+{
+  background-image: url('../image/abou-2.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;  
+}
+.disc-sec-6
+      {
+        background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255, 255, 255, 0));
+        backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border: 1px solid rgba(255, 255, 255,0.18);
+        padding: 20px 10px;
+         clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 13% 90%, 9% 96%, 6% 90%, 0 90%);
+      }
+      .sec-6-item
+      {
+         padding: 20px;
+      }
+      .sec-6-next,.sec-6-prev
+   {
+      height: 10px;
+      width: 10px;
+      background-color: rgb(75, 73, 73);
+      border-radius: 50%;
+   }
+   .crus-2,.crus-3 
+   {
+      display: none;
+   }
+   @media screen and (max-width:991px) and (min-width:768px) 
+   {
+        .crus-1
+        {
+           display: none !important;
+        }
+        .crus-2
+        {
+          display: inline-block !important;
+        }
+   }
+   @media screen and (max-width:767px)
+   {
+     .crus-2
+     {
+        display: none !important;
+     }  
+     .crus-1
+     {
+        display: none !important;
+     }
+     .crus-3
+     {
+        display: inline-block !important;
+     }
+  }
+  .divd-sec-6
+  {
+     display: flex;
+     
+  }
+  .sce-6 ol li
+  {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+
+  }
+  .crsol-point
+  {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+  }
+ /*//////////////////////////////////////////////// our ////////////////////////////////*/
+ .our
+ {
+   background-color: rgb(49, 46, 41);       
+ }
+ .our-sec
+ {
+   display: flex;
+   justify-content: space-between;
+   background-color: #f1f1f1;
+ }
+ @media screen and (max-width:991px)
+ {
+  .our-sec
+ {
+   display: flex;
+   justify-content: flex-start;
+   background-color: #f1f1f1;
+   flex-direction: column !important;
+ }          
+ }
+ .our-sec h3, span
+ {
+    cursor: pointer;      
+ }
+ .our-sp
+ {
+    background-color: #f1f1f1 !important;      
+ }
+ .cont-blog
+ {
+    border-left:0.1px solid #888 ;
+    border-bottom: 0.1px solid #888;
+ }
+ @media screen and (max-width:991px)
+{
+   .cont-blog
+ {
+    border-left:0.1px solid #888 ;
+    border-bottom: 0.1px solid #888;
+    border-right: 0.1px solid #888;    
+ }       
+ }
+ .blog-point
+ {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;      
+ }
+ .las-p
+ {
+    font-size: 1.4rem;      
+ }
+ .back-blog
+ {
+   background-color: #d8b478;
+   padding: 10px;         
+ }
+ .back-blog:hover
+ {
+   background-color: #333;
+   color: #fff;
+   cursor: pointer;       
+ }
+ .las-cont
+ {
+    display: flex;
+    justify-content: space-between;      
+ }
+ .las-cont i
+ {
+   font-size: 30px;       
+ }
+ .blo-item ul li
+ {
+     list-style-type: none;
+     line-height: 3rem;     
+ }
+ .blo-item ul li:hover
+ {
+    color: #d8b478;
+    cursor: pointer;      
+ }
+ 
+.contact-but
+{
+  background-color: #d8b478;
+  color: #fff;
+  font-weight: bold;
+}
