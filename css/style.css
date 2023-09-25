@@ -10,7 +10,8 @@
  background-image: url('../image/full-1.jpg');
  background-attachment: fixed;
  background-position: center center;
- background-size: cover;          
+ background-size: cover;    
+ overflow: hidden;      
 }
 
 .layar-home
@@ -77,6 +78,7 @@
   position: relative;
   z-index:900 ;
   background-color: white;
+  overflow: hidden;
 }
 .contant-sec-2 p
 {
@@ -118,6 +120,7 @@
   background-size: cover;
   position: relative;
   z-index: 9000000;
+  overflow: hidden;
 }
 .sec-3-item i
 {
@@ -299,6 +302,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .loader {
   width: 48px;
